@@ -1,0 +1,48 @@
+package ticketBookingServiceIMPL;
+
+import java.util.Random;
+import java.util.Scanner;
+
+import ticketBooking.SingleTicketBooking;
+
+public class SingleTicketBookingImpl 
+{
+	public static void main(String[] args) {
+		SingleTicketBooking s= new SingleTicketBooking();
+		 Random r= new Random(100);
+		System.out.println("enter customer name");
+		Scanner sc = new Scanner(System.in);
+		String name=sc.nextLine();
+		s.setCustomerName(name);
+		System.out.println("choose ticket type");
+		int t1=sc.nextInt();
+		switch(t1)
+		{
+		case 1 :s.setTicketType("GOLD");
+		       s.setTicketPrice("150");
+		       int u= r.nextInt();
+		       s.setTicketNo(u);
+		       s.toString();
+		       break;
+		
+		case 2 :s.setTicketType("SILVER");
+	       s.setTicketPrice("100");
+	       int v= r.nextInt();
+	       s.setTicketNo(v);
+	       s.toString();
+	       break;
+		
+		case 3 :s.setTicketType("PLATINUM");
+	       s.setTicketPrice("200");
+	       int w= r.nextInt();
+	       s.setTicketNo(w);
+	       s.toString();
+	       break;
+			
+		}
+		
+		
+		
+	}
+
+}

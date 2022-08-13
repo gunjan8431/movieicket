@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ticketBookingServiceIMPL.singleTicketBooking&apos; to &apos;singleTicketBookingImpl&apos;&#x0D;&#x0A;- Original project: &apos;SHIVAM_MOVIE _TICKET_PROJECT&apos;&#x0D;&#x0A;- Original element: &apos;ticketBookingServiceIMPL.singleTicketBooking&apos;&#x0D;&#x0A;- Renamed element: &apos;ticketBookingServiceIMPL.singleTicketBookingImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;singleTicketBooking&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ticketBookingServiceIMPL{singleTicketBooking.java[singleTicketBooking" matchStrategy="1" name="singleTicketBookingImpl" qualified="false" references="true" similarDeclarations="false" stamp="1660374224009" textual="false" version="1.0"/>
+</session>

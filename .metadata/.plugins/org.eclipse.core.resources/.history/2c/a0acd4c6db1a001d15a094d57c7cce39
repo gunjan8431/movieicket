@@ -1,0 +1,35 @@
+package ticketBookingServiceIMPL;
+
+import java.util.Scanner;
+
+import ticketBooking.SingleTicketBooking;
+
+public class SingleTicketBookingImpl 
+{
+	public static void main(String[] args) {
+		SingleTicketBooking s= new SingleTicketBooking();
+		System.out.println("enter customer name");
+		Scanner sc = new Scanner(System.in);
+		String name=sc.nextLine();
+		System.out.println("enter ticket type");
+		String ticketType = sc.next();
+		String t =ticketType.toUpperCase();
+		switch(t)
+		{
+		case "GOLD" :s.setTicketPrice("50");
+		break;
+		
+		case "SILVER" :s.setTicketPrice("100");
+		break;
+		
+		case "PLATINUM" :s.setTicketPrice("200");
+		break;
+		
+			
+		}
+		
+
+		
+	}
+
+}

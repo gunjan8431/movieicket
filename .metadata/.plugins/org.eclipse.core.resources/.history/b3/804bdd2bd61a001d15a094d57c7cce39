@@ -1,0 +1,27 @@
+package ticketBooking;
+
+public class SingleTicketBooking {
+	private String ticketNo;
+	private String customerName;
+	private String ticketPrice;
+	public String getTicketNo() {
+		return ticketNo;
+	}
+	public void setTicketNo(String ticketNo) {
+		this.ticketNo = ticketNo;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getTicketPrice() {
+		return ticketPrice;
+	}
+	public void setTicketPrice(String ticketPrice) {
+		this.ticketPrice = ticketPrice;
+	}
+	
+
+}
